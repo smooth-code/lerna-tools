@@ -20,7 +20,7 @@ This set of tools gives you command to build (using Babel) and watch all your pa
 
 ### Watch All packages
 
-```sh
+```
 $ lerna-watch
 
 -> Watching for changes...
