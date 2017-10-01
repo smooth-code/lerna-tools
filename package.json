@@ -18,7 +18,7 @@
     "lint": "eslint .",
     "release": "mversion `conventional-recommended-bump -p angular` -m",
     "test": "jest --runInBand --forceExit",
-    "prepublish": "yarn run build"
+    "prepublishOnly": "yarn run build"
   },
   "bin": {
     "lerna-build": "lib/build.js",
