@@ -11,6 +11,13 @@ npm install lerna-tools
 
 ## Usage
 
+This set of tools gives you command to build (using Babel) and watch all your packages. It is opinionated and not yed configurable:
+
+- Packages must be located in `<rootDir>/packages`
+- Source files must be located in `<rootDir>/packages/<package>/src`
+- Build files must be located in `<rootDir>/packages/<package>/lib`
+- Babel config must be located in `<rootDir>/.babelrc`
+
 ### Watch All packages
 
 ```sh
@@ -31,6 +38,10 @@ Building packages
 h2x-core..................................................... DONE
 h2x-jsx...................................................... DONE
 ```
+
+## Inspiration
+
+Inspired from [Jest](https://github.com/facebook/jest) scripts.
 
 # License
 
