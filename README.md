@@ -5,6 +5,8 @@ Set of tools to manage a Lerna repository 🐉
 [![version][version-badge]][package]
 [![MIT License][license-badge]][license]
 
+<img src="https://raw.github.com/smooth-code/lerna-tools/master/demo.gif" width="600" />
+
 ```sh
 npm install lerna-tools
 ```
