@@ -38,9 +38,7 @@ MIT
 
 [build-badge]: https://img.shields.io/travis/smooth-code/lerna-tools.svg?style=flat-square
 [build]: https://travis-ci.org/smooth-code/lerna-tools
-[package]: https://www.npmjs.com/package/lerna-tools
 [version-badge]: https://img.shields.io/npm/v/lerna-tools.svg?style=flat-square
-[license-badge]: https://img.shields.io/npm/l/lerna-tools.svg?style=flat-square
 [package]: https://www.npmjs.com/package/lerna-tools
-https://img.shields.io/npm/l/lerna-tools.svg?style=flat-square
+[license-badge]: https://img.shields.io/npm/l/lerna-tools.svg?style=flat-square
 [license]: https://github.com/smooth-code/lerna-tools/blob/master/LICENSE
