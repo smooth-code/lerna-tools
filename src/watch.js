@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 /* eslint-disable no-console */
 
 /**
@@ -18,7 +19,7 @@ function getPackages() {
     .filter(f => fs.lstatSync(path.resolve(f)).isDirectory())
 }
 
-const BUILD_CMD = `babel-node ${path.resolve(__dirname, './build.js')}`
+const BUILD_CMD = `node ${path.resolve(__dirname, './build.js')}`
 
 let filesToBuild = new Map()
 

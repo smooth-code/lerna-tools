@@ -13,6 +13,10 @@
     "test": "jest --runInBand",
     "prepublish": "yarn run build"
   },
+  "bin": {
+    "lerna-build": "lib/build.js",
+    "lerna-watch": "lib/watch.js"
+  },
   "peerDependencies": {
     "babel-core": "^6.26.0 | ^7.0.0"
   },
