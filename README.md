@@ -13,10 +13,10 @@ npm install lerna-tools
 
 This set of tools gives you command to build (using Babel) and watch all your packages. It is opinionated and not yet configurable:
 
-- Packages must be located in "<rootDir>/packages"
-- Source files must be located in "<rootDir>/packages/<package>/src"
-- Build files must be located in "<rootDir>/packages/<package>/lib"
-- Babel config must be located in "<rootDir>/.babelrc"
+- Packages must be located in `<rootDir>/packages`
+- Source files must be located in `<rootDir>/packages/<package>/src`
+- Build files must be located in `<rootDir>/packages/<package>/lib`
+- Babel config must be located in `<rootDir>/.babelrc`
 - You must run `lerna-watch` and `lerna-build` in the root of your project
 
 ### Watch All packages
