@@ -3,6 +3,13 @@
   "version": "0.0.0",
   "main": "lib/index.js",
   "author": "Greg Bergé <berge.greg@gmail.com>",
+  "keywords": [
+    "lerna",
+    "lernajs",
+    "babel",
+    "build",
+    "watch"
+  ],
   "license": "MIT",
   "scripts": {
     "build": "rm -rf lib/ && NODE_ENV=production babel src -d lib",
