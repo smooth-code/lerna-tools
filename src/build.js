@@ -30,11 +30,6 @@ const JS_FILES_PATTERN = '**/*.js'
 const IGNORE_PATTERN = '**/*.test.js'
 const PACKAGES_DIR = path.resolve(process.cwd(), 'packages')
 
-const transformOptions = JSON.parse(
-  fs.readFileSync(path.resolve(process.cwd(), '.babelrc'), 'utf8'),
-)
-transformOptions.babelrc = false
-
 const adjustToTerminalWidth = str => {
   const columns = process.stdout.columns || 80
   const WIDTH = columns - stringLength(OK) + 1
@@ -99,7 +94,7 @@ function buildFile(file, silent) {
         )} (copy)\n`,
       )
   } else {
-    const transformed = transformFileSync(file, transformOptions).code
+    const transformed = transformFileSync(file).code
     fs.writeFileSync(destPath, transformed)
     if (!silent)
       process.stdout.write(
